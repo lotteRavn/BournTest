@@ -31,10 +31,13 @@
                             <constraint firstItem="dgy-ar-EWY" firstAttribute="centerY" secondItem="Cel-bV-aDl" secondAttribute="centerY" id="o8f-3B-J5P"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="TWm-a2-Ezk">
-                        <barButtonItem key="leftBarButtonItem" title="Item" id="LL7-gR-Yfa"/>
+                    <navigationItem key="navigationItem" id="O36-Wf-HFa">
+                        <barButtonItem key="leftBarButtonItem" title="Item" id="vv5-IB-mzL"/>
                     </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="menuButton" destination="vv5-IB-mzL" id="RfO-vB-bn7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GI2-ag-2eT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
