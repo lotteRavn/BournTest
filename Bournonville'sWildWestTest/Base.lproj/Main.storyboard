@@ -18,17 +18,39 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dgy-ar-EWY">
-                                <rect key="frame" x="168" y="323" width="39" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="I7H-Tk-dsk">
+                                <rect key="frame" x="12" y="114" width="343" height="106"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7fs-V8-7va">
+                                        <rect key="frame" x="8" y="8" width="327" height="30"/>
+                                        <color key="backgroundColor" red="0.50196081400000003" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="Kontakt ">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SNE-eh-O4t">
+                                        <rect key="frame" x="8" y="38" width="327" height="30"/>
+                                        <color key="backgroundColor" red="0.50196081400000003" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="Cowboy Grill &amp; Saloon">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TM9-mI-58v">
+                                        <rect key="frame" x="8" y="68" width="327" height="30"/>
+                                        <color key="backgroundColor" red="0.50196081400000003" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="Om Bournonville's Wild West">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="dgy-ar-EWY" firstAttribute="centerX" secondItem="Cel-bV-aDl" secondAttribute="centerX" id="ED1-2k-Ydr"/>
-                            <constraint firstItem="dgy-ar-EWY" firstAttribute="centerY" secondItem="Cel-bV-aDl" secondAttribute="centerY" id="o8f-3B-J5P"/>
+                            <constraint firstItem="I7H-Tk-dsk" firstAttribute="leading" secondItem="Cel-bV-aDl" secondAttribute="leadingMargin" constant="-8" id="92T-lA-8zs"/>
+                            <constraint firstItem="I7H-Tk-dsk" firstAttribute="top" secondItem="Ayy-pH-aj8" secondAttribute="bottom" constant="56" id="jt2-kL-eOJ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="I7H-Tk-dsk" secondAttribute="trailing" constant="8" id="piU-0F-2aS"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="O36-Wf-HFa">
@@ -92,6 +114,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="oJ6-ed-Q90" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="YEf-u7-0Vq"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -165,7 +190,7 @@
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
-                            <tableViewSection headerTitle="Cowboy Grill og Saloon" id="xku-ky-taS">
+                            <tableViewSection headerTitle="Cowboy Grill &amp; Saloon" id="xku-ky-taS">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="xIN-Kg-gwl">
                                         <rect key="frame" x="0.0" y="232" width="375" height="44"/>
@@ -333,4 +358,7 @@
             <point key="canvasLocation" x="817.5" y="-512.5"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="YEf-u7-0Vq"/>
+    </inferredMetricsTieBreakers>
 </document>
