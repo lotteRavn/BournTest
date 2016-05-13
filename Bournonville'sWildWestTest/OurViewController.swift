@@ -20,6 +20,7 @@ class OurViewController: UIViewController {
         menuButton.action = #selector(SWRevealViewController.revealToggle(_:))
         self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
         }
+      
 
         // Do any additional setup after loading the view.
     }

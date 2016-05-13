@@ -311,6 +311,7 @@
 				C88BD72C1CE4484C008E3983 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
