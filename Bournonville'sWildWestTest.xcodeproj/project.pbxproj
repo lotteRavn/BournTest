@@ -7,27 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C829CD951D056F54008773E9 /* Contact.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C829CD931D056F54008773E9 /* Contact.storyboard */; };
+		C84905F11D0461070000B720 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84905F01D0461070000B720 /* MenuViewController.swift */; };
+		C84905F41D048A7A0000B720 /* Anderson Thunderbirds Are GO!.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C84905F31D048A050000B720 /* Anderson Thunderbirds Are GO!.ttf */; };
+		C84905F61D048D670000B720 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84905F51D048D670000B720 /* ContactViewController.swift */; };
+		C84F2D4A1D0598C600ACF161 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C84F2D491D0598C600ACF161 /* MapKit.framework */; };
+		C84F2D4C1D0598FA00ACF161 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C84F2D4B1D0598FA00ACF161 /* CoreLocation.framework */; };
+		C84F2D4E1D059DE700ACF161 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84F2D4D1D059DE700ACF161 /* MapViewController.swift */; };
+		C85729451D0D769D009D788A /* Assets Catalog.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C85729441D0D769D009D788A /* Assets Catalog.xcassets */; };
+		C85729471D0D8BB6009D788A /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C85729461D0D8BB6009D788A /* MessageUI.framework */; };
+		C85729491D0DD6F2009D788A /* RouteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85729481D0DD6F2009D788A /* RouteTableViewController.swift */; };
 		C88BD71C1CE4484C008E3983 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88BD71B1CE4484C008E3983 /* AppDelegate.swift */; };
 		C88BD71E1CE4484C008E3983 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88BD71D1CE4484C008E3983 /* ViewController.swift */; };
 		C88BD7211CE4484C008E3983 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C88BD71F1CE4484C008E3983 /* Main.storyboard */; };
-		C88BD7231CE4484C008E3983 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C88BD7221CE4484C008E3983 /* Assets.xcassets */; };
 		C88BD7261CE4484C008E3983 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C88BD7241CE4484C008E3983 /* LaunchScreen.storyboard */; };
 		C88BD7311CE45B39008E3983 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C88BD7301CE45B39008E3983 /* SWRevealViewController.m */; };
 		C88BD7331CE47D72008E3983 /* OurViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88BD7321CE47D72008E3983 /* OurViewController.swift */; };
+		C8C15FF31CE5BF6700520F80 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8C15FF11CE5BF6700520F80 /* Home.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C829CD941D056F54008773E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Contact.storyboard; sourceTree = "<group>"; };
+		C84905F01D0461070000B720 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		C84905F31D048A050000B720 /* Anderson Thunderbirds Are GO!.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Anderson Thunderbirds Are GO!.ttf"; sourceTree = "<group>"; };
+		C84905F51D048D670000B720 /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		C84F2D491D0598C600ACF161 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		C84F2D4B1D0598FA00ACF161 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C84F2D4D1D059DE700ACF161 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		C85729441D0D769D009D788A /* Assets Catalog.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Assets Catalog.xcassets"; sourceTree = "<group>"; };
+		C85729461D0D8BB6009D788A /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		C85729481D0DD6F2009D788A /* RouteTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteTableViewController.swift; sourceTree = "<group>"; };
 		C88BD7181CE4484C008E3983 /* Bournonville'sWildWestTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bournonville'sWildWestTest.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C88BD71B1CE4484C008E3983 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C88BD71D1CE4484C008E3983 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C88BD7201CE4484C008E3983 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C88BD7221CE4484C008E3983 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C88BD7251CE4484C008E3983 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C88BD7271CE4484C008E3983 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C88BD72E1CE45B38008E3983 /* Bournonville'sWildWestTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bournonville'sWildWestTest-Bridging-Header.h"; sourceTree = "<group>"; };
 		C88BD72F1CE45B39008E3983 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		C88BD7301CE45B39008E3983 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		C88BD7321CE47D72008E3983 /* OurViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OurViewController.swift; sourceTree = "<group>"; };
+		C8C15FF21CE5BF6700520F80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Home.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,15 +55,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C85729471D0D8BB6009D788A /* MessageUI.framework in Frameworks */,
+				C84F2D4C1D0598FA00ACF161 /* CoreLocation.framework in Frameworks */,
+				C84F2D4A1D0598C600ACF161 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C84905F21D0489C30000B720 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		C88BD70F1CE4484C008E3983 = {
 			isa = PBXGroup;
 			children = (
+				C85729461D0D8BB6009D788A /* MessageUI.framework */,
+				C84F2D4B1D0598FA00ACF161 /* CoreLocation.framework */,
+				C84F2D491D0598C600ACF161 /* MapKit.framework */,
 				C88BD71A1CE4484C008E3983 /* Bournonville'sWildWestTest */,
 				C88BD7191CE4484C008E3983 /* Products */,
 			);
@@ -62,12 +95,19 @@
 			children = (
 				C88BD72D1CE459FB008E3983 /* SWRevealViewController */,
 				C88BD71B1CE4484C008E3983 /* AppDelegate.swift */,
+				C84905F31D048A050000B720 /* Anderson Thunderbirds Are GO!.ttf */,
 				C88BD71D1CE4484C008E3983 /* ViewController.swift */,
 				C88BD7321CE47D72008E3983 /* OurViewController.swift */,
+				C84905F01D0461070000B720 /* MenuViewController.swift */,
 				C88BD71F1CE4484C008E3983 /* Main.storyboard */,
-				C88BD7221CE4484C008E3983 /* Assets.xcassets */,
+				C8C15FF11CE5BF6700520F80 /* Home.storyboard */,
+				C829CD931D056F54008773E9 /* Contact.storyboard */,
+				C84905F51D048D670000B720 /* ContactViewController.swift */,
+				C84F2D4D1D059DE700ACF161 /* MapViewController.swift */,
 				C88BD7241CE4484C008E3983 /* LaunchScreen.storyboard */,
 				C88BD7271CE4484C008E3983 /* Info.plist */,
+				C85729441D0D769D009D788A /* Assets Catalog.xcassets */,
+				C85729481D0DD6F2009D788A /* RouteTableViewController.swift */,
 			);
 			path = "Bournonville'sWildWestTest";
 			sourceTree = "<group>";
@@ -78,6 +118,7 @@
 				C88BD72F1CE45B39008E3983 /* SWRevealViewController.h */,
 				C88BD7301CE45B39008E3983 /* SWRevealViewController.m */,
 				C88BD72E1CE45B38008E3983 /* Bournonville'sWildWestTest-Bridging-Header.h */,
+				C84905F21D0489C30000B720 /* Resources */,
 			);
 			name = SWRevealViewController;
 			sourceTree = "<group>";
@@ -114,6 +155,7 @@
 				TargetAttributes = {
 					C88BD7171CE4484C008E3983 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 2EXGV5R98Y;
 					};
 				};
 			};
@@ -140,9 +182,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C84905F41D048A7A0000B720 /* Anderson Thunderbirds Are GO!.ttf in Resources */,
+				C85729451D0D769D009D788A /* Assets Catalog.xcassets in Resources */,
+				C829CD951D056F54008773E9 /* Contact.storyboard in Resources */,
 				C88BD7261CE4484C008E3983 /* LaunchScreen.storyboard in Resources */,
-				C88BD7231CE4484C008E3983 /* Assets.xcassets in Resources */,
 				C88BD7211CE4484C008E3983 /* Main.storyboard in Resources */,
+				C8C15FF31CE5BF6700520F80 /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,15 +199,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				C88BD71E1CE4484C008E3983 /* ViewController.swift in Sources */,
+				C84905F11D0461070000B720 /* MenuViewController.swift in Sources */,
 				C88BD71C1CE4484C008E3983 /* AppDelegate.swift in Sources */,
 				C88BD7311CE45B39008E3983 /* SWRevealViewController.m in Sources */,
 				C88BD7331CE47D72008E3983 /* OurViewController.swift in Sources */,
+				C84905F61D048D670000B720 /* ContactViewController.swift in Sources */,
+				C84F2D4E1D059DE700ACF161 /* MapViewController.swift in Sources */,
+				C85729491D0DD6F2009D788A /* RouteTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		C829CD931D056F54008773E9 /* Contact.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C829CD941D056F54008773E9 /* Base */,
+			);
+			name = Contact.storyboard;
+			sourceTree = "<group>";
+		};
 		C88BD71F1CE4484C008E3983 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -177,6 +234,14 @@
 				C88BD7251CE4484C008E3983 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C8C15FF11CE5BF6700520F80 /* Home.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8C15FF21CE5BF6700520F80 /* Base */,
+			);
+			name = Home.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -270,10 +335,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Bournonville'sWildWestTest/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "dk.lotteravn.Bournonville-sWildWestTest";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Bournonville'sWildWestTest/Bournonville'sWildWestTest-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -284,10 +352,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Bournonville'sWildWestTest/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "dk.lotteravn.Bournonville-sWildWestTest";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Bournonville'sWildWestTest/Bournonville'sWildWestTest-Bridging-Header.h";
 			};
 			name = Release;

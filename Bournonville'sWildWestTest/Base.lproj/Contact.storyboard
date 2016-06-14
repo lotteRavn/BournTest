@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Q6v-tv-d6T">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Anderson Thunderbirds Are GO!.ttf">
+            <string>AndersonThunderbirdsAreGO!</string>
+            <string>AndersonThunderbirdsAreGO!</string>
+            <string>AndersonThunderbirdsAreGO!</string>
+        </mutableArray>
+    </customFonts>
+    <scenes>
+        <!--Kontakt-->
+        <scene sceneID="xSY-gP-FrZ">
+            <objects>
+                <viewController storyboardIdentifier="Contact" hidesBottomBarWhenPushed="YES" id="whT-5v-Vl4" customClass="ContactViewController" customModule="Bournonville_sWildWestTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7Rn-Ra-3ZU"/>
+                        <viewControllerLayoutGuide type="bottom" id="FRG-qM-BRM"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="BMs-y0-mYi">
+                        <rect key="frame" x="0.0" y="64" width="414" height="672"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background_xwide" translatesAutoresizingMaskIntoConstraints="NO" id="OEJ-nO-dhw">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="672"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d2E-Em-461">
+                                <rect key="frame" x="44" y="307" width="327" height="30"/>
+                                <color key="backgroundColor" red="0.2470588235" green="0.058823529409999999" blue="0.058823529409999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="AndersonThunderbirdsAreGO!" family="Anderson Thunderbirds Are GO!" pointSize="26"/>
+                                <state key="normal" title="Send Mail">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="mailButtonTapped:" destination="whT-5v-Vl4" eventType="touchUpInside" id="V1G-hX-3JT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XkS-64-TAg">
+                                <rect key="frame" x="44" y="444" width="327" height="30"/>
+                                <color key="backgroundColor" red="0.26873910470000001" green="0.058823529409999999" blue="0.058823529409999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="AndersonThunderbirdsAreGO!" family="Anderson Thunderbirds Are GO!" pointSize="26"/>
+                                <state key="normal" title="Find Bournonville's Wild West">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="findButtonTapped:" destination="whT-5v-Vl4" eventType="touchUpInside" id="98x-Ym-frO"/>
+                                    <segue destination="E4f-ms-kcu" kind="show" identifier="showMap" id="hYR-g7-By7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KNM-2p-HlM">
+                                <rect key="frame" x="44" y="157" width="327" height="33"/>
+                                <color key="backgroundColor" red="0.2470588235" green="0.058823529409999999" blue="0.058823529409999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="AndersonThunderbirdsAreGO!" family="Anderson Thunderbirds Are GO!" pointSize="26"/>
+                                <state key="normal" title="Ring">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="ringButtonTapped:" destination="whT-5v-Vl4" eventType="touchUpInside" id="ABi-Bl-Ci5"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ringer...." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IVa-Ri-EiP">
+                                <rect key="frame" x="84" y="534" width="256" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="OEJ-nO-dhw" firstAttribute="leading" secondItem="BMs-y0-mYi" secondAttribute="leading" id="3kt-cx-t2Q"/>
+                            <constraint firstItem="OEJ-nO-dhw" firstAttribute="top" secondItem="7Rn-Ra-3ZU" secondAttribute="bottom" id="Bea-IT-Dja"/>
+                            <constraint firstAttribute="trailing" secondItem="OEJ-nO-dhw" secondAttribute="trailing" id="D0y-ej-yUh"/>
+                            <constraint firstItem="FRG-qM-BRM" firstAttribute="top" secondItem="OEJ-nO-dhw" secondAttribute="bottom" id="amS-o3-9VT"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Kontakt" id="J4h-yQ-Wi8" userLabel="Kontakt">
+                        <barButtonItem key="backBarButtonItem" title="Tilbage" id="2PA-5Q-Cja"/>
+                        <barButtonItem key="rightBarButtonItem" title="Menu" id="hSa-xa-eOi"/>
+                    </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO">
+                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <color key="barTintColor" red="0.26873910470000001" green="0.058823529409999999" blue="0.058823529409999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </simulatedNavigationBarMetrics>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="findButton" destination="XkS-64-TAg" id="ca4-3P-nn1"/>
+                        <outlet property="mailButton" destination="d2E-Em-461" id="eee-JL-TUG"/>
+                        <outlet property="menuButton" destination="hSa-xa-eOi" id="6Nu-kY-vYP"/>
+                        <outlet property="ringButton" destination="KNM-2p-HlM" id="gb4-aS-l9o"/>
+                        <outlet property="textLabel" destination="IVa-Ri-EiP" id="fPn-2A-ZDW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="215-cf-fLs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1281" y="-478"/>
+        </scene>
+        <!--Kort-->
+        <scene sceneID="H6p-Ix-mb9">
+            <objects>
+                <viewController id="E4f-ms-kcu" customClass="MapViewController" customModule="Bournonville_sWildWestTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zxC-95-KfX"/>
+                        <viewControllerLayoutGuide type="bottom" id="Jos-ps-NXl"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="yBJ-wJ-3r9">
+                        <rect key="frame" x="0.0" y="64" width="414" height="672"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="mhX-f5-awS">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="672"/>
+                                <connections>
+                                    <outlet property="delegate" destination="E4f-ms-kcu" id="d5h-YG-x7k"/>
+                                </connections>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="mhX-f5-awS" secondAttribute="trailing" id="1FR-mq-sPB"/>
+                            <constraint firstItem="mhX-f5-awS" firstAttribute="leading" secondItem="yBJ-wJ-3r9" secondAttribute="leading" id="SOc-MM-VzK"/>
+                            <constraint firstAttribute="bottom" secondItem="mhX-f5-awS" secondAttribute="bottom" id="YAJ-OA-K3p"/>
+                            <constraint firstItem="mhX-f5-awS" firstAttribute="top" secondItem="zxC-95-KfX" secondAttribute="bottom" id="mEq-IR-sOU"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Kort" id="l1Q-47-D34">
+                        <barButtonItem key="backBarButtonItem" title="Tilbage" id="Gg9-JY-6SO"/>
+                        <barButtonItem key="rightBarButtonItem" title="Rutevejledning" id="0pv-Ma-r2h">
+                            <connections>
+                                <action selector="findRouteButton:" destination="E4f-ms-kcu" id="Blu-UE-X2f"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="mapView" destination="mhX-f5-awS" id="whM-kQ-Jdb"/>
+                        <segue destination="xX3-fX-bZd" kind="show" identifier="showSteps" id="11e-p4-uFk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YZE-X1-iOX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1792" y="-478"/>
+        </scene>
+        <!--Route Table View Controller-->
+        <scene sceneID="tMj-6q-guC">
+            <objects>
+                <tableViewController id="xX3-fX-bZd" customClass="RouteTableViewController" customModule="Bournonville_sWildWestTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="zT0-ax-GeI">
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="XfP-97-0LU">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="XfP-97-0LU" id="aAd-Rc-wf7">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="xX3-fX-bZd" id="w8z-tL-dUf"/>
+                            <outlet property="delegate" destination="xX3-fX-bZd" id="kwq-9n-4AK"/>
+                        </connections>
+                    </tableView>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="T2C-vB-ZoE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2265.5" y="-512.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="FFo-n1-om4">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" hidesBottomBarWhenPushed="YES" id="Q6v-tv-d6T" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="0eb-XQ-nb6">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <color key="barTintColor" red="0.26873910470000001" green="0.058823529409999999" blue="0.058823529409999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="whT-5v-Vl4" kind="relationship" relationship="rootViewController" id="8MF-0C-gPZ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qdL-zW-has" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="817.5" y="-512.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background_xwide" width="618" height="1999"/>
+    </resources>
+</document>

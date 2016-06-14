@@ -1,38 +1,26 @@
 //
-//  OurViewController.swift
+//  MenuViewController.swift
 //  Bournonville'sWildWestTest
 //
-//  Created by Lotte Ravn on 12/05/16.
+//  Created by Lotte Ravn on 05/06/16.
 //  Copyright © 2016 Lotte Ravn. All rights reserved.
 //
 
 import UIKit
 
-class OurViewController: UIViewController {
+class MenuViewController: UITableViewController {
 
-    @IBOutlet weak var menuButton: UIBarButtonItem!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
+        tableView.backgroundView = UIImageView(image: UIImage(named: "background_xwide"))
         
-        if self.revealViewController() != nil {
-        menuButton.target = self.revealViewController()
-        menuButton.action = #selector(SWRevealViewController.revealToggle(_:))
-        self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
-        let imageView = UIImageView(image: UIImage(named: "logoTransparant_white_sm_pdf")!)
-        navigationItem.titleView = imageView
-
-        }
-      
-
-        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
+        
 
     /*
     // MARK: - Navigation
